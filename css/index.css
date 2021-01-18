@@ -120,7 +120,7 @@ body {margin:0;}
   }
 
   .topimg {
-    /*background-color: white ; */
+    background-color:grey ;
     top: 50px;
     width:110%;
     height: 20%;
