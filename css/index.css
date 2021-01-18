@@ -16,7 +16,7 @@ body {margin:0;}
           font-family: Fira Code;
           }
 
-.topnav b {
+.topnav x {
           float: right;
           display: block;
           color: #f2f2f2;
@@ -32,7 +32,7 @@ body {margin:0;}
             color: black;
                 }
 
-.topnav b:hover {
+.topnav x:hover {
             background-color: #ddd;
             color: black;
                 }
@@ -54,6 +54,7 @@ body {margin:0;}
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
   color: #818181;
   display: block;
 }
@@ -80,7 +81,7 @@ body {margin:0;}
     width: 160px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
-    top: 50px; /* Stay at the top */
+    top: 55px; /* Stay at the top */
     left: 0;
     background-color: #111; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
@@ -101,6 +102,10 @@ body {margin:0;}
     color: #f1f1f1;
   }
   
+  .sidenav h1 {
+    color: white ;
+    padding: 10px;
+  }
   /* Style page content */
   .main {
     margin-left: 160px; /* Same as the width of the sidebar */
@@ -112,3 +117,17 @@ body {margin:0;}
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+
+  .topimg {
+    background-color: black;
+    top: 50px;
+    width:110%;
+    height: 20%;
+  }
+
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
