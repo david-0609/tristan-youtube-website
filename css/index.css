@@ -2,6 +2,7 @@ body {margin:0;}
 
 .topnav {
         overflow: hidden;
+        width: 100%;
         background-color: #333;
         }
 /* Arranges the items in the top navigation menu */
@@ -120,6 +121,7 @@ body {margin:0;}
   }
 
   .topimg {
+    background-image: url('static/console.png');
     background-color:grey ;
     top: 50px;
     width:110%;
