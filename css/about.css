@@ -51,6 +51,31 @@ body {
     font-family: 'Linux Biolinum Keyboard';
 }
 
+.main figure #tristan {
+    position: absolute;
+    top: 50%;
+    right: 180px;
+    border: #ddd solid 5px;
+}
+
+.main figure figcaption {
+    color: white;
+    position: absolute;
+    font-family: monospace;
+    font-size: 16px;
+    top: 92%;
+    right: 5%;
+}
+
+.main p {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    padding-left: 8%;
+    padding-right: 40%;
+}
+
 .topimg {
     background-image: url('static/console.png');
     background-color:grey ;
