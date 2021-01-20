@@ -153,3 +153,10 @@ body {
   font-family: monospace;
   color: white;
 }
+
+.totop a {
+  color: white;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 15px;
+}
