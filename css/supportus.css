@@ -41,3 +41,18 @@ body {
         background-color: #ddd;
         color: black;
             }
+
+body h1{
+    font-family: Fira Code;
+    font-size: 30px;
+    color: white;
+    text-decoration: underline white;
+    margin: 4%;
+}
+
+.main{
+    margin-left: 10%;
+    margin-right: 5%;
+    color: white;
+    border: white 5px solid
+}
