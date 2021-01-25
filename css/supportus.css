@@ -59,17 +59,20 @@ body h1{
 
 .main p {
     margin-left: 10px;
+    font-family: monospace;
+    font-size: 18px;
 }
 
-#title2 {
+.pay {
+    padding-top: 5%;
+    padding-left: 8%;
+}
+.pay a {
     font-family:'Courier New', Courier, monospace;
     font-size: 22px;
     color: white;
 }
 
-.pay object{
-    height:850px;
-    width: 700px;
-    margin-left: 15%;
-    margin-bottom: 5%;
+.pay a img{
+    margin: 2.5%;
 }
