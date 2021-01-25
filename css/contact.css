@@ -70,18 +70,48 @@ body {
   }
   
   /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-  div.content {
+  div.title {
     height: 100%;
   }
 
-  div.content h1 {
+  div.title h1{
       font-family: Linux Biolinum Keyboard;
-      padding-left: 5%;
+      padding-left: 3%;
       padding-top: 2%;
       color: white;
-      font-size: 40px;
+      font-size: 45px;
       text-decoration: bold;
   }
+
+.info {
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 3.5%;
+    border: white solid 8px;
+}
+ .info p{
+      color: white;
+      margin-left: 5%;
+      font-family: Fira Code;
+      font-size: 16px;
+  }
+
+  .chat{
+      margin-left: 10%;
+      margin-top: 5%;
+  }
+  .chat h1{
+      font-family: monospace;
+      font-size: 28px;
+      color: white;
+  }
+
+  .chat object{
+      height: 500px;
+      width: 1000px;
+      padding-bottom: 7%;
+  }
+
   
   /* On screens that are less than 700px wide, make the sidebar into a topbar */
   @media screen and (max-width: 700px) {
