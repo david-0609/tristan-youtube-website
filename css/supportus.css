@@ -56,3 +56,20 @@ body h1{
     color: white;
     border: white 5px solid
 }
+
+.main p {
+    margin-left: 10px;
+}
+
+#title2 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 22px;
+    color: white;
+}
+
+.pay object{
+    height:850px;
+    width: 700px;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
